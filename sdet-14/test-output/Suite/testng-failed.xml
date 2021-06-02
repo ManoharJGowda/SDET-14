@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <exclude name="smokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.comcast.contacts_1.TC_33_CancelButtonIsEnableRNot">
+        <methods>
+          <include name="cancelButton"/>
+        </methods>
+      </class> <!-- com.crm.comcast.contacts_1.TC_33_CancelButtonIsEnableRNot -->
+      <class name="com.crm.comcast.contacts_1.TC_32_Save_Button_enable_r_not">
+        <methods>
+          <include name="saveButtonEnbale"/>
+        </methods>
+      </class> <!-- com.crm.comcast.contacts_1.TC_32_Save_Button_enable_r_not -->
+      <class name="com.crm.comcast.contacts_1.TC_35_MailMergeTemplateWithOrganization">
+        <methods>
+          <include name="mailMergeTemplate"/>
+        </methods>
+      </class> <!-- com.crm.comcast.contacts_1.TC_35_MailMergeTemplateWithOrganization -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

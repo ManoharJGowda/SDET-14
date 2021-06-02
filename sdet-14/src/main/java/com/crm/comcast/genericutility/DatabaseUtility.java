@@ -27,7 +27,7 @@ public class DatabaseUtility {
 		DriverManager.registerDriver(driverRef);
 		
 		//Step 2 Get Connection to Database// provide database name
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/tyss", "root", "root");
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/books", "root", "root");
 	    }
 	    catch (Exception e)
 	    {

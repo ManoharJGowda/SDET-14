@@ -58,4 +58,13 @@ public class JavaUtility {
 		Date date = new Date();
 		  return date.getYear();
 	}
+	
+	/**
+	 * This method will return the system current date and time 
+	 * @return system date
+	 */
+	public static String getSystemDate() {
+		Date date = new Date();
+		return date.toString().replace(" ", "_").replace(":", "_");
+	}
 }

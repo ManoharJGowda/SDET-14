@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.comcast.contacts_1.TC_31_CreateContactTest"/>
+      <class name="com.crm.comcast.contacts_1.TC_32_Save_Button_enable_r_not"/>
+      <class name="com.crm.comcast.contacts_1.TC_35_MailMergeTemplateWithOrganization"/>
+      <class name="com.crm.comcast.contacts_1.TC_34_CreateMailMergeTemplateWithOrganition"/>
+      <class name="com.crm.comcast.contacts_1.TC_33_CancelButtonIsEnableRNot"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

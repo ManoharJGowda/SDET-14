@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="commonUtils.DatabaseUtility">
+      <class name="com.crm.comcast.contacts_2.CreateMailMergeTemplateTest">
         <methods>
-          <include name="databaseExecuteUpdate"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="logoutApplication"/>
+          <include name="logintoApplication"/>
+          <include name="MailMergeTemplate"/>
+          <include name="beforeSuite"/>
+          <include name="closeDBConnection"/>
         </methods>
-      </class> <!-- commonUtils.DatabaseUtility -->
+      </class> <!-- com.crm.comcast.contacts_2.CreateMailMergeTemplateTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

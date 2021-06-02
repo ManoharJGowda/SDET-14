@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40620" started-at="2021-06-02T14:59:38 IST" finished-at="2021-06-02T15:00:19 IST">
+    <groups>
+      <group name="smokeTest">
+        <method signature="CreateContactsTest.createContact()[pri:0, instance:com.crm.comcast.contacts_2.CreateContactsTest@74650e52]" name="createContact" class="com.crm.comcast.contacts_2.CreateContactsTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Default test" duration-ms="40620" started-at="2021-06-02T14:59:38 IST" finished-at="2021-06-02T15:00:19 IST">
+      <class name="com.crm.comcast.contacts_2.CreateContactsTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.crm.comcast.contacts_2.CreateContactsTest@74650e52]" name="beforeSuite" is-config="true" duration-ms="623" started-at="2021-06-02T14:59:37 IST" finished-at="2021-06-02T14:59:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.crm.comcast.contacts_2.CreateContactsTest@74650e52]" name="launchBrowser" is-config="true" duration-ms="4066" started-at="2021-06-02T14:59:38 IST" finished-at="2021-06-02T14:59:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="logintoApplication()[pri:0, instance:com.crm.comcast.contacts_2.CreateContactsTest@74650e52]" name="logintoApplication" is-config="true" duration-ms="11630" started-at="2021-06-02T14:59:42 IST" finished-at="2021-06-02T14:59:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApplication -->
+        <test-method status="PASS" signature="createContact()[pri:0, instance:com.crm.comcast.contacts_2.CreateContactsTest@74650e52]" name="createContact" duration-ms="16706" started-at="2021-06-02T14:59:54 IST" finished-at="2021-06-02T15:00:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method status="PASS" signature="logoutApplication()[pri:0, instance:com.crm.comcast.contacts_2.CreateContactsTest@74650e52]" name="logoutApplication" is-config="true" duration-ms="7359" started-at="2021-06-02T15:00:11 IST" finished-at="2021-06-02T15:00:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApplication -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.comcast.contacts_2.CreateContactsTest@74650e52]" name="closeBrowser" is-config="true" duration-ms="697" started-at="2021-06-02T15:00:18 IST" finished-at="2021-06-02T15:00:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeDBConnection()[pri:0, instance:com.crm.comcast.contacts_2.CreateContactsTest@74650e52]" name="closeDBConnection" is-config="true" duration-ms="13" started-at="2021-06-02T15:00:19 IST" finished-at="2021-06-02T15:00:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConnection -->
+      </class> <!-- com.crm.comcast.contacts_2.CreateContactsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

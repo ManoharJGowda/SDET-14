@@ -26,7 +26,7 @@ public class CreateORganizationWithIndustries {
 		
 		
 		/*read common data*/
-
+		 
 		 String BROWSER = pLib.readDataFromPropertyFfile("browser");
 		 String USERNAME = pLib.readDataFromPropertyFfile("username");
 		 String PASSWORD = pLib.readDataFromPropertyFfile("password");
